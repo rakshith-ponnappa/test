@@ -15,7 +15,7 @@ podTemplate(label: 'pod-golang',
 
           sh ("go version")
           sh ("go version"
-          echo ("build successful")
+          echo ("build successful1")
 
         }
     }
