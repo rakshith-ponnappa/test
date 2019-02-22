@@ -10,10 +10,11 @@ podTemplate(label: 'pod-golang',
 ) {
     node ('pod-golang') {
 
-        stage 'Switch to Utility Container'
+        stage 'Switch to Utility Container-test'
         container('golang') {
 
           sh ("go version")
+          sh ("go version"
           echo ("build successful")
 
         }
